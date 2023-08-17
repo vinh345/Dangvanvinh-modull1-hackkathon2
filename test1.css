@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(247, 246, 244);
+    color: rgb(163, 168, 172);
+
+
+}
+
+.banner {
+    width: 100%;
+    height: 900px;
+    background-image: url(/image/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.span {
+    font-size: 200px;
+    font-weight: 500;
+}
+
+.banner__1 {
+    width: 450px;
+    height: 300px;
+    margin-left: 80px;
+
+
+}
+
+ul {
+    display: flex;
+    width: 700px;
+    margin-left: 650px;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+button {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+
+}
+
+.Title {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 80px;
+    
+
+}
+
+.Featureds {
+    margin-top: 120px;
+}
+
+.image {
+    width: 410px;
+}
+
+.section {
+    display: flex;
+    gap: 12px;
+    margin-top: 80px;
+}
+.image__one {
+    width: 900px;
+    height: 750px;
+}
+.image__two {
+    width: auto;
+}
+
+
+.left-img{
+    background-image: url("image/collection-item1.jpg");
+    width: 60%;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-img {
+    background-image: url("/image/collection-item2.jpg");
+    width: 800px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-img {
+    background-image: url(/image/collection-item3.jpg);
+    width: 800px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
